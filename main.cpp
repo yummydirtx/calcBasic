@@ -20,6 +20,12 @@ int main(int argc, char *argv[]) {
         convert2 >> second;
         maxNumber = int(first);
         iterations = int(second);
+    } else {
+        std::cout << "Tip: to skip this beginning part use two parameters from the command line to define the max number and the number of iterations" << '\n';
+        std::cout << "Example: calcBasic 100 10" << '\n';
+        std::cout << "What should be the max number the random number generator should chose? ";
+        std::cin >> maxNumber;
+        std::cout << '\n' << "";
     }
     for (int i{0}; i < iterations; i++) {
         guess = 0;
