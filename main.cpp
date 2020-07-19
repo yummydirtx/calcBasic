@@ -1,6 +1,8 @@
 #include <iostream>
 #include <sstream>
 #include "random.hpp"
+
+// this program was written by Alex Frutkin in 2020
  
 // get base random alias which is auto seeded and has static API and internal state
 using Random = effolkronium::random_static;
