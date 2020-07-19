@@ -4,7 +4,7 @@
 // get base random alias which is auto seeded and has static API and internal state
 using Random = effolkronium::random_static;
 
-int main() {
+int main(int argc, char *argv[]) {
     int maxNumber{1000};
     int tries{0};
     long long int guess{0};
