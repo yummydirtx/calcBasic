@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
         std::cout << "Example: calcBasic 100 10" << '\n';
         std::cout << "What should be the max number the random number generator should chose? ";
         std::cin >> maxNumber;
-        std::cout << '\n' << "";
+        std::cout << '\n' << "The max number will be " << maxNumber << '\n';
     }
     for (int i{0}; i < iterations; i++) {
         guess = 0;
