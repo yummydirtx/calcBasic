@@ -25,12 +25,15 @@ int main(int argc, char *argv[]) {
         std::cout << "Example: calcBasic 100 10" << '\n';
         std::cout << "What should be the max number the random number generator should chose? ";
         std::cin >> maxNumber;
-        std::cout << '\n' << "The max number will be " << maxNumber << '\n';
+        std::cout << "The max number will be " << maxNumber << '\n';
+        std::cout << "How many times should the computer try to guess? (more tries will yeild better attempt numbers but will take longer) ";
+        std::cin >> iterations;
+        std::cout << '\n';
     }
     for (int i{0}; i < iterations; i++) {
         guess = 0;
         tries = 0;
-        while (!(guess == maxNumber)) {
+        while (!(guess == 1)) {
             guess = Random::get(0, maxNumber + 1);
             std::cout << guess << std::endl;
             tries++;
