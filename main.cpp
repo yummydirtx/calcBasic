@@ -37,7 +37,8 @@ int main(int argc, char *argv[]) {
         tries = 0;
         while (!(guess == 1)) {
             guess = Random::get(0, maxNumber + 1);
-            std::cout << guess << std::endl;
+            // uncomment this next line to show each guess, signifigant slowdown will occur however
+            //std::cout << guess << std::endl;
             tries++;
         }
         std::cout << "This took " << tries << " tries!" << '\n';
