@@ -10,10 +10,10 @@ using Random = effolkronium::random_static;
 int main(int argc, char *argv[]) {
     int numberOfLowest{1};
     int maxNumber{1000};
-    int iterations{1000};
-    int tries{0};
+    long long int iterations{1000};
+    long long int tries{0};
     long long int guess{0};
-    int lowestNumber{100000000};
+    long long int lowestNumber{100000000000000};
     if (argc == 3) {
         std::stringstream convert1{argv[1]};
         std::stringstream convert2{argv[2]};
