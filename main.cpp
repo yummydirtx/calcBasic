@@ -8,6 +8,7 @@
 using Random = effolkronium::random_static;
 
 int main(int argc, char *argv[]) {
+    int numberOfLowest{1};
     int maxNumber{1000};
     int iterations{1000};
     int tries{0};
@@ -44,8 +45,17 @@ int main(int argc, char *argv[]) {
         std::cout << "This took " << tries << " tries!" << '\n';
         if (tries < lowestNumber) {
             lowestNumber = tries;
+            numberOfLowest = 1;
+        } else if (tries == lowestNumber) {
+            numberOfLowest++;
         }
     }
     std::cout << "The lowest number of tries was " << lowestNumber << '\n';
+    std::cout << "That number appeared in that many tries " << numberOfLowest;
+    if (numberOfLowest == 1) {
+        std::cout << " time." << '\n';
+    } else {
+        std::cout << " times." << '\n';
+    }
     return 0;
 }
