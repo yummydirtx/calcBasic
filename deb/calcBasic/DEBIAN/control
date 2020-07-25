@@ -1,0 +1,9 @@
+Package: calcBasic
+Version: 1.1
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: yummydirt.me
+Description: An adapted version of an old BASIC program I wrote on a TI-84
