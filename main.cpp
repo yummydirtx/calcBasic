@@ -3,7 +3,14 @@
 #include "random.hpp"
 
 // this program was written by Alex Frutkin in 2020
- 
+
+// it is a lot of fun to play around with
+// it will generate random numbers until the number 1 is generated
+// this takes a long time and it will print the number of attempts it took to find it
+// the user can define the range of numbers to be chose from
+// they can also define the number of times it should be repeated
+// have fun!
+
 // get base random alias which is auto seeded and has static API and internal state
 using Random = effolkronium::random_static;
 
