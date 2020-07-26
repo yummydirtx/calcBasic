@@ -8,7 +8,7 @@
 
 > A fun little program adapted from BASIC originally written on a TI-84 
 
-## Install
+## Compile
 
 ```sh
 make
