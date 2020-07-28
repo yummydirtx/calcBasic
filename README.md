@@ -8,11 +8,12 @@
 
 > A fun little program adapted from BASIC originally written on a TI-84 
 
-## Install
+## Compile
 
 ```sh
 make
 ```
+Alternately just download the precompiled executable for your OS at https://github.com/yummydirtx/calcBasic/releases
 
 ## Usage
 
@@ -24,7 +25,7 @@ make
 
 👤 **Alex Frutkin**
 
-* Website: yummydirt.dev
+* Website: https://yummydirt.dev
 * Github: [@yummydirtx](https://github.com/yummydirtx)
 
 ## 🤝 Contributing
