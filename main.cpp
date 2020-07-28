@@ -30,6 +30,10 @@ int main(int argc, char *argv[]) {
         convert2 >> second;
         maxNumber = int(first);
         iterations = int(second);
+    } else if (argc > 3) {
+        std::cout << "Error: too many arguments" << '\n';
+        std::cout << "Usage: calcbasic [Maximum number to generate] [Number of times to run]" << '\n';
+        return 1;
     } else {
         std::cout << "Tip: to skip this beginning part use two parameters from the command line to define the max number and the number of iterations" << '\n';
         std::cout << "Example: calcBasic 100 10" << '\n';
