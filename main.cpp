@@ -15,6 +15,7 @@
 using Random = effolkronium::random_static;
 
 int main(int argc, char *argv[]) {
+    std::ios::sync_with_stdio(false);
     int numberOfLowest{1};
     int maxNumber{1000};
     long long int iterations{1000};
