@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to calcBasic 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-v2.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-v2.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/yummydirtx/calcBasic/blob/master/LICENSE" target="_blank">
     <img alt="License: GPLv2" src="https://img.shields.io/badge/License-GPLv2-yellow.svg" />
   </a>
