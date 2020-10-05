@@ -4,7 +4,7 @@
   # compiler flags:
   #  -g    adds debugging information to the executable file
   #  -Wall turns on most, but not all, compiler warnings
-  CFLAGS  = -O3 -Wall
+  CFLAGS  = -O3 -Wall -std=c++17
 
   # the build target executable:
   TARGET = calcbasic
