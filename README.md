@@ -39,4 +39,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2020 [Alex Frutkin](https://github.com/yummydirtx).<br />
-This project is [GPLv2](https://github.com/yummydirtx/calcBasic/blob/master/LICENSE) licensed.
+This project is [GPLv2](https://github.com/yummydirtx/calcBasic/blob/master/LICENSE) or later licensed.
