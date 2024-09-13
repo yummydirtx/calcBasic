@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v2.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/yummydirtx/calcBasic/blob/master/LICENSE" target="_blank">
-    <img alt="License: GPLv2" src="https://img.shields.io/badge/License-GPLv2-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
@@ -39,4 +39,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2020 [Alex Frutkin](https://github.com/yummydirtx).<br />
-This project is [GPLv2](https://github.com/yummydirtx/calcBasic/blob/master/LICENSE) or later licensed.
+This project is [MIT](https://github.com/yummydirtx/calcBasic/blob/master/LICENSE) licensed.
